@@ -1517,7 +1517,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/MNMpopup3.jpg);
+  background-image: url(../images/Planter_V1.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1565,7 +1565,7 @@ header .header-logo a {
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
-  font-size: 9rem;
+  font-size: 10rem;
   line-height: 1.133;
   color: #FFFFFF;
 }
@@ -1684,7 +1684,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 2.1rem;
   }
   .home-content-tablecell h1 {
-    font-size: 7rem;
+    font-size: 9rem;
   }
 }
 @media only screen and (max-width: 1024px) {
