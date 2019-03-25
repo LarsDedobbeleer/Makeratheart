@@ -1726,6 +1726,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
+  #home {
+    min-height: 702px;
+    background-color: #000000;
+    background-image: none;
+  }
 
   .home-content-tablecell .row {
     max-width: 480px;
@@ -1740,6 +1745,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 500px) {
+  #home {
+    background-color: #000000;
+    background-image: none;
+  }
   .home-content-tablecell .row {
     max-width: 420px;
   }
