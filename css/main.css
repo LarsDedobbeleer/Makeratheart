@@ -2455,7 +2455,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 4.8rem 0 4.8rem;
 }
 #clients .client-lists .owl-item {
-  opacity: .6;
+  opacity: .4;
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
@@ -2478,8 +2478,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;
-  margin: .6rem;
-  padding: 0 10px;
+
+
   background: rgba(0, 0, 0, 0.5);
   display: block;
   cursor: pointer;
@@ -2508,10 +2508,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   *display: block;
 }
 #clients .owl-carousel .owl-dots .owl-dot span {
-  width: 9px;
+
   height: 9px;
   background-color: #959595;
-  margin: 6px 6px;
+
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
