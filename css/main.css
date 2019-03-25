@@ -1519,7 +1519,7 @@ header .header-logo a {
   background-color: #151515;
   background-image: url(../images/Planter_V1.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1696,6 +1696,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 768px) {
+
   .home-content-tablecell .row {
     max-width: 600px;
   }
@@ -1725,9 +1726,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
-  #home {
-    min-height: 702px;
-  }
 
   .home-content-tablecell .row {
     max-width: 480px;
@@ -1764,6 +1762,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
+    background-color: #000000;
+    background-image: none;
   }
 
   .home-content-tablecell .row {
@@ -1774,9 +1774,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.4rem;
   }
   .home-content-tablecell h1 {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 }
+
+
 
 
 /* ===================================================================
