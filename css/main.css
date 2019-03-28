@@ -1517,7 +1517,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/Planter_V1.jpg);
+  background-image: url(../images/MNMpopup3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1905,7 +1905,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/MNMpopup3.jpg);
+  background-image: url(../images/Planter_V1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2529,7 +2529,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/portfolio/Big_Planter_V2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2544,7 +2544,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .75;
+  opacity: .6;
   background-color: #000000;
 }
 #contact .section-intro h1 {
@@ -2554,7 +2554,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(242, 242, 242, 0.5);
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.8);
 }
 
 .contact-content {
@@ -2569,7 +2569,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
+  color:#f9a828;
   font-size: 1.4rem;
 }
 
@@ -2643,7 +2643,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 3.6rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 #contact input[type="text"]:focus,
