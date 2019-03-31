@@ -33,6 +33,7 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
+@import url("fonts/geniso/stylesheet.css");
 
 
 /* ===================================================================
@@ -93,8 +94,8 @@ a:hover, a:focus {
  *  03. typography & general theme styles - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5,
-.h01, .h02, .h03, .h04, .h05, {
+ h2, h3, h4, h5,
+ .h02, .h03, .h04, .h05, {
   font-family: "montserrat-bold", sans-serif;
   color: #151515;
   font-style: normal;
@@ -103,24 +104,34 @@ h1, h2, h3, h4, h5,
 }
 h6
 .h06 {
-  font-family: "geniso";
+font-family: 'genisoregular';
   color: #ffffff;
   font-style: normal;
   margin-bottom: 2.1rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 h3, .h03, h4, .h04 {
   margin-bottom: 1.8rem;
 }
 
-h5, .h05, h6, .h06 {
+h5, .h05,{
   margin-bottom: 1.2rem;
 }
 
 h1, .h01 {
   font-size: 3.1rem;
   line-height: 1.35;
+  letter-spacing: -.1rem;
+}
+h1, .h01 {
+    font-family: 'genisoregular';
+    font-weight: normal;
+    color:  #ffffff;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+  font-size: 2.8rem;
+  line-height: 1;
   letter-spacing: -.1rem;
 }
 @media only screen and (max-width: 600px) {
@@ -153,12 +164,16 @@ h5, .h05 {
 }
 
 h6, .h06 {
+  font-family: 'genisoregular';
   font-size: 1.4rem;
   line-height: 1.85;
   text-transform:normal;
   letter-spacing: .2rem;
 }
-
+h7, .h07 {
+  font-size: 2.6rem;
+  letter-spacing: -.07rem;
+}
 p img {
   margin: 0;
 }
@@ -1517,7 +1532,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/MNMpopup3.jpg);
+  background-image: url(../images/MNMpopup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1728,8 +1743,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 600px) {
   #home {
     min-height: 702px;
-    background-color: #000000;
-    background-image: none;
+
+
   }
 
   .home-content-tablecell .row {
@@ -1746,8 +1761,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 500px) {
   #home {
-    background-color: #000000;
-    background-image: none;
+
   }
   .home-content-tablecell .row {
     max-width: 420px;
@@ -1771,8 +1785,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
-    background-color: #000000;
-    background-image: none;
+
   }
 
   .home-content-tablecell .row {
@@ -2551,7 +2564,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: white;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: rgba(242, 242, 242, 0.8);
 }
 #contact .section-intro p.lead {
   color: rgba(242, 242, 242, 0.8);
@@ -2822,10 +2835,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 footer {
-  margin: 0 0 5.4rem 0;
+  margin: 0 0 4.4rem 0;
   padding: 0;
+
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255);
 }
 footer a, footer a:visited {
   color: #FFFFFF;
@@ -2839,25 +2853,47 @@ footer .row {
 footer h4.h05 {
   color: #FFFFFF;
   position: relative;
-  padding-bottom: 4.2rem;
-  margin-bottom: 3.6rem;
+  padding-bottom: 2rem;
+    font-family: "montserrat-bold", sans-serif;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 footer h4.h05::after {
   display: block;
   content: "";
   width: 100px;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255);
   position: absolute;
   bottom: 0;
   left: 0;
+}
+footer h5.h06 {
+  color:rgba(255, 255, 255,0.8);
+  position: relative;
+
+
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.2rem;
+
+}
+footer p.lead {
+  color: rgba(255,255,255, 0.8);
 }
 
 /* footer main
  * --------------------------------- */
 .footer-main {
-  padding-top: 9.6rem;
-  padding-bottom: 3rem;
+
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer-main h4.h05 {
+  color: #FFFFFF;
+  position: relative;
+  padding-bottom: 4.2rem;
+  margin-bottom: 3.6rem;
 }
 .footer-main ul {
   font-size: 1.5rem;
@@ -2868,7 +2904,7 @@ footer h4.h05::after {
   padding-left: 0;
 }
 .footer-main ul a, .footer-main ul a:visited {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255);
 }
 .footer-main ul a:hover, .footer-main ul a:focus {
   color: #FFFFFF;
@@ -2880,39 +2916,10 @@ footer h4.h05::after {
   margin: 0;
   padding: 0;
 }
-.footer-main #mc-form input[type="email"] {
-  height: 6rem;
-  padding: 1.5rem 8rem 1.5rem 2rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+.footer-main p.lead {
+  color: rgba(255,255,255, 0.8);
 }
-.footer-main #mc-form button {
-  background-color: #f9a828;
-  color: #000000;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.footer-main #mc-form button:hover {
-  background-color: #f89e0f;
-}
-.footer-main #mc-form button i {
-  font-size: 2.6rem;
-  line-height: 6rem;
-  margin: 0;
-  position: relative;
-  left: .2rem;
-}
-.footer-main #mc-form label {
-  color: #f9a828;
-  font-family: "montserrat-regular", sans-serif;
-}
+
 
 /* footer bottom
  * --------------------------------- */
@@ -2929,7 +2936,7 @@ footer h4.h05::after {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255);
 }
 .footer-bottom .copyright span:last-child::after {
   display: none;
