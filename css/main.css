@@ -1252,7 +1252,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 header {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -1283,10 +1283,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 57px;
-  height: 57px;
+  width: 50px;
+  height: 50px;
   /*background: url("../images/logo/Mah_logo_klein.png") no-repeat center; */
-  background-size: 57px 57px;
+  background-size: 50px 50px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1567,7 +1567,7 @@ header .header-logo a {
 }
 .home-content-tablecell .row {
   position: relative;
-  padding-top: 16.2rem;
+  padding-top: 15rem;
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
@@ -1743,7 +1743,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 600px) {
   #home {
     min-height: 702px;
-
+background-color: #000000;
+background-image: none;
 
   }
 
@@ -1761,7 +1762,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 500px) {
   #home {
-
+    background-color: #000000;
+background-image: none;
   }
   .home-content-tablecell .row {
     max-width: 420px;
@@ -1785,7 +1787,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
-
+background-color: #000000;
+background-image: none;
   }
 
   .home-content-tablecell .row {
@@ -2886,7 +2889,7 @@ footer p.lead {
 .footer-main {
 
 
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 .footer-main h4.h05 {
@@ -2926,8 +2929,8 @@ footer p.lead {
 .footer-bottom {
   margin-top: 3rem;
   text-align: center;
-  font-family: "montserrat-regular", sans-serif;
-  font-size: 1.4rem;
+
+
 }
 .footer-bottom .copyright span {
   display: inline-block;
@@ -3003,12 +3006,18 @@ footer p.lead {
   footer h4.h05 {
     padding-bottom:2rem;
     margin-bottom: 2rem;
+
   }
 
   footer h4.h05::after {
     left: 50%;
     margin-left: -50px;
   }
+  footer h5.h06 {
+    margin-top: 0.2rem;
+}
+
+
 }
 @media only screen and (max-width: 600px) {
   .footer-bottom {
